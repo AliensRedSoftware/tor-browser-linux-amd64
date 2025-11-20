@@ -26,10 +26,10 @@
 Type=Application
 Name=Tor Browser Setup
 GenericName=Web Browser
-Comment=Tor Browser  is +1 for privacy and −1 for mass surveillance
+Comment=Tor Browser is a privacy-focused web browser designed to minimize tracking and fingerprinting, using the Tor network to protect your privacy and anonymity.
 Categories=Network;WebBrowser;Security;
 Exec=sh -c '"$(dirname "$*")"/Browser/start-tor-browser || ([ ! -x "$(dirname "$*")"/Browser/start-tor-browser ] && "$(dirname "$*")"/start-tor-browser)' dummy %k
 X-TorBrowser-ExecShell=./Browser/start-tor-browser --detach
-Icon=/home/localhost/xTor-linux/Browser/browser/chrome/icons/default/default128.png
+Icon=web-browser
 StartupNotify=true
 StartupWMClass=Tor Browser

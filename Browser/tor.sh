@@ -6,13 +6,13 @@ echo "[CFG] INIT => PROCCESS PLEASE WAIT..."
 
 # remove fonts
 
-sudo rm -Rf ./fonts/*
-sudo rmdir ./fonts
+#sudo rm -Rf ./fonts/*
+#sudo rmdir ./fonts
 
 # remove fonts
 
-sudo rm -Rf ./TorBrowser/Data/fontconfig/*
-sudo rmdir ./TorBrowser/Data/fontconfig
+#sudo rm -Rf ./TorBrowser/Data/fontconfig/*
+#sudo rmdir ./TorBrowser/Data/fontconfig
 
 # remove torrc
 sudo rm -Rf ./TorBrowser/Data/Tor/torrc
