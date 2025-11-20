@@ -1,9 +1,9 @@
-# xTor-linux
+#  tor-browser-linux-amd64
 * Модифицированная версия tor браузера
 
 # Установка (LINUX)
 * Открыть наш умный terminal
-* Пожалуйста склонируйте наш репозиторий набором команд -> <code>git-lfs clone https://github.com/AliensRedSoftware/xTor-linux</code>
+* Пожалуйста склонируйте наш репозиторий набором команд -> <code>git-lfs clone https://github.com/AliensRedSoftware/tor-browser-linux-amd64</code>
 * start app -> <code>./Browser/tor.sh</code>
 
 # Особенности
@@ -11,7 +11,6 @@
 2. Стабильные расширение
 3. Минимизированный интерфейс
 4. Язык установлен по умл (<b>RU</b>)
-5. Удаление стандартных шрифтов (<b>fonts</b>)
 
 # Расширение (23)
 ## Оформление (2)
